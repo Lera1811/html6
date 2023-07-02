@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Semibold;
+    src: url(fonts/Gilroy-Semibold.ttf);
+}
+
+.container {
+    width: 1146px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header__logo {
+    margin-top: 40px;
+    margin-bottom: 84px;
+    margin-right: 500px;
+}
+
+.header_logo_GrowBe {
+    margin-top: 45px;
+    margin-bottom: 89px;
+}
+
+.header_nav {
+    margin-top: 51px;
+    margin-bottom: 94.71px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_link {
+    color: #000000;
+    font-size: 14px;
+    font-family: Gilroy-SemiBold;
+    padding: 7px;
+}
+
+.link_home {
+    color: #F25822;
+    font-size: 14px;
+    font-family: Gilroy-SemiBold;
+    padding: 7px;
+}
+
+.top__content {
+    margin-bottom: 162.45px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    margin-bottom: 17px;
+    margin-right: 40.94px;
+    color: #000;
+    font-size: 60px;
+    font-family: Gilroy-Bold;
+}
+
+.text {
+    margin-bottom: 37px;
+    margin-right: 96.94px;
+    color: #888;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+}
+
+.top_buttons_watch {
+    margin-top: 15px;
+}
+
+.buttons_link {
+    color: #AAA;
+    font-size: 15px;
+    font-family: Gilroy-Bold;
+    text-decoration: none;
+}
+
+.top__buttons {
+    margin-top: 37px;   
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.top_buttons_start {
+    margin-right: 72px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.top__logos {
+    margin-bottom: 96px;
+    margin-top: 97px;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.main__top__content {
+    padding: 100px auto 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.heading {
+    margin-top: 25px;
+    margin-bottom: 17px;
+    color: #000;
+    font-size: 24px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item__text {
+    margin-bottom: 25px;
+    width: 310px;
+    color: #666;
+    font-size: 15px;
+    font-family: Gilroy-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.item__link {
+    color: #000;
+    font-size: 11px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.bottom_content_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content__title {
+    margin-top: 92px;
+    color: #000;
+    font-size: 45px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bottom_content__text {
+    margin-top: 19px;
+    width: 682px;
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    font-family: Gilroy-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.bottom_content_main {
+    margin-top: 54px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.content__img {
+    margin-right: -13px;
+    margin-left: -13px;
+}
+
+.content__item {
+    padding: 0px 30px 50px;
+}
+
+.content__heading {
+    color: #000;
+    font-size: 24px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.content__text {
+    width: 310px;
+    margin-bottom: 39px;
+    color: #AAA;
+    text-align: center;
+    font-size: 15px;
+    font-family: Gilroy-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.content__bottons{
+    background-color: rgba(242, 88, 34, 1);
+    margin: 50px;
+    padding: 25px 75px;
+    border: none;
+    border-radius: 60px;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
